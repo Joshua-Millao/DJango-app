@@ -44,13 +44,16 @@ python -m pip install Django==5.0.14 djangorestframework==3.15.2
 
 crear el nombre de la bd
 
+9. Crear superusuario
 
-9. Migrar las tablas en la BD
+python manage.py createsuperuser
+
+11. Migrar las tablas en la BD
 
 python manage.py migrate
 
 
-10. Levantar tu app Django
+11. Levantar tu app Django
 
 python manage.py runserver
 
